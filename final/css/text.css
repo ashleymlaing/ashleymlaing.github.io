@@ -1,0 +1,13 @@
+.main p{
+  width: 400px;
+}
+
+.sidebar p{
+  width: 80%;
+}
+.footer p {
+  width: 80%;
+}
+p{
+  margin: 0 auto;
+}

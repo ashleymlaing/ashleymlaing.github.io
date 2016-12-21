@@ -1,0 +1,15 @@
+.mainNav li, .sidenav li, .footerNav li, .main>ul>li {
+  position: relative;
+}
+.sidebar ul li{
+  margin: 10px;
+}
+.mainNav,.footerNav ul, .main ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  height:40px;
+}
+ul {
+  list-style: none;
+}

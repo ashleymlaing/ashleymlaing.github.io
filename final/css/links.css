@@ -1,0 +1,118 @@
+a{
+  color: #8693DA;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  transition: 2s;
+}
+a:hover {
+  font-size: 24px;
+  color: #C80A4C;
+}
+.homeLink:after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/home-icon.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top:25px;
+  left:10px;
+  transition: .2s;
+}
+.homeLink:hover::after{
+  background-color: green;
+}
+.newsLink:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/news-icon.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top:25px;
+  left: 35px;
+  transition: .5s;
+}
+.newsLink:hover::before {
+  display: none;
+}
+.aboutLink:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/About-Us-Icon.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top:25px;
+  left: 30px;
+  transition: .1s;
+}
+.aboutLink:hover::before {
+  width:10px;
+  height: 10px;
+}
+.contactLink:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/phone-symbol-2.png);
+  background-size: contain;
+  background-position: center;
+  transition: .1s;
+  position: absolute;
+  left: 140px;
+}
+.contactLink:hover::before {
+  transform:skew(-45deg);
+  transition:transform 0.2s ease-in;
+}
+.sedLink:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/globe.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: 140px;
+  transition: .9s;
+}
+.sedLink:hover::before {
+  transform:rotate(360deg);
+  left: 180px;
+}
+.cupidLink:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/chatbubble-outline.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: 140px;
+  transition: .1s;
+}
+.cupidLink:hover::before {
+  transform:scale(1.5) rotate(4deg);
+  transition:transform 0.2s ease-in;
+}
+.main a:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/gingerbread_man.png);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top:25px;
+  left: 50%;
+  transition: .7s;
+}
+.main a:hover::before {
+  transform: translateY(3px);
+	opacity: .6;
+}

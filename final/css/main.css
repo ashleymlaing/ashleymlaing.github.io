@@ -1,0 +1,34 @@
+@import "img.css";
+@import "text.css";
+@import "links.css";
+@import "list.css";
+@import "phone.css";
+@import "tablet.css";
+* {
+  background-color: #AB61C1;
+}
+body {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+.sidebar {
+  border-right: 1px solid black;
+  width: 30%;
+  text-align: left;
+}
+
+.main {
+  width: 70%;
+  padding: 30px;
+}
+.footer{
+  border-top: 1px solid black;
+}
+.mainWrapper {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.navWrapper {
+  border-bottom: 1px solid black;
+}
