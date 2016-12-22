@@ -1,0 +1,618 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Elements
+# Typography
+# Colors:
+
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html{}
+body {}
+span {}
+a {
+}
+
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h4 {
+  font-family: 'EB Garamond', serif;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+span {
+  font-family: 'EB Garamond', serif;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Colors
+--------------------------------------------------------------*/
+.gradient {
+    background : -moz-linear-gradient(0% 50% 0deg,rgba(243, 201, 60, 1) 0%,rgba(213, 104, 33, 1) 50%,rgba(104, 43, 130, 1) 100%);
+    background : -webkit-linear-gradient(0deg, rgba(243, 201, 60, 1) 0%, rgba(213, 104, 33, 1) 50%, rgba(104, 43, 130, 1) 100%);
+    background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0,rgba(243, 201, 60, 1) ),color-stop(0.5,rgba(213, 104, 33, 1) ),color-stop(1,rgba(104, 43, 130, 1) ));
+    background : -o-linear-gradient(0deg, rgba(243, 201, 60, 1) 0%, rgba(213, 104, 33, 1) 50%, rgba(104, 43, 130, 1) 100%);
+    background : -ms-linear-gradient(0deg, rgba(243, 201, 60, 1) 0%, rgba(213, 104, 33, 1) 50%, rgba(104, 43, 130, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3C93C', endColorstr='#682B82' ,GradientType=0)";
+    background : linear-gradient(90deg, rgba(243, 201, 60, 1) 0%, rgba(213, 104, 33, 1) 50%, rgba(104, 43, 130, 1) 100%);
+    opacity : 0.6;
+    filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) progid:DXImageTransform.Microsoft.gradient(startColorstr='#F3C93C',endColorstr='#682B82' , GradientType=1);
+}
+
+/*--------------------------------------------------------------
+# My CSS
+--------------------------------------------------------------*/
+.wrapper {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.med-wrapper{
+  max-width: 1020px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.large-wrapper {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+.large-wrapper.home-page {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+header, footer {
+  padding-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+header h2,footer h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+header{
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+.corner {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  top: 18px;
+  left: 84%;
+}
+ul{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+ul a {
+  color: #4062BB;
+}
+header ul {
+
+}
+header ul li {
+ min-width: 100px;
+}
+header ul li a{
+  font-size: 22px;
+  font-weight: bold;
+}
+footer a {
+  color: #fff;
+}
+footer li {
+  width: 25%;
+}
+footer h2 {
+  color: #fff;
+}
+aside {
+  width: 20%;
+}
+.photo {
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  background-image: url("https://www.eiuperspectives.economist.com/sites/default/files/styles/editor_manualcrop/public/1Carolyn%20Wheelancrop.jpg?itok=C-8-YjAV&c=2b20a8115bbb2d38dbd89ce26a6e84aa");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+aside .box {
+  padding: 20px;
+}
+aside a {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #4062BB;
+}
+aside h3{
+  font-size: 26px;
+}
+.content {
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.content h2 {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+.content section {
+  width: 30%;
+  margin-bottom: 40px;
+}
+.content h4 {
+  font-size: 20px;
+}
+.content h5{
+  font-size: 14px;
+}
+h6 {
+  background-color: #4062BB;
+}
+
+.business h6 {
+  background-color: #EB4837;
+}
+.news h6 {
+  background-color: #593FDA;
+}
+.science h6 {
+  background-color: #506B05;
+}
+.travel h6 {
+  background-color: #151E3F;
+}
+.other h6 {
+  background-color: #666;
+}
+.content h6 {
+  color: white;
+  text-align: left;
+  padding: 5px 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.content img {
+  width: 100%;
+}
+.link-to-article {
+  float: right;
+  text-decoration: underline;
+}
+footer {
+  margin-top: 100px;
+  color: white;
+  background-color: grey;
+  padding: 40px;
+}
+footer section {
+  border-top: 1px solid white;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 0.5px;
+  font-family: 'EB Garamond', serif;
+}
+.box {
+  border: 1px solid #ddd;
+}
+.content a {
+  color: #4062BB;
+  font-family: 'EB Garamond', serif;
+}
+
+.bio-picture {
+	width: 300px;
+	height: 300px;
+  background-image: url("https://www.eiuperspectives.economist.com/sites/default/files/styles/editor_manualcrop/public/1Carolyn%20Wheelancrop.jpg?itok=C-8-YjAV&c=2b20a8115bbb2d38dbd89ce26a6e84aa");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.self-bio {
+  width: 50%;
+}
+.smaller .box {
+  height: 115px;
+  overflow: hidden;
+}
+.smaller img {
+  width: 100%;
+}
+.smaller h6 {
+  margin-top: 0;
+  padding: 5px 15px;
+  color: #fff;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.container h3 {
+  width: 100%;
+  padding-left: 15px;
+}
+.container > section {
+  width: 25%;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.style {
+  border: 2px solid black;
+  height: 2px;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.centered-links{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.centered-links a{
+  font-size: 26px;
+  margin-right: 25px;
+  color: #4062BB;
+}
+.currentpg {
+  text-decoration: underline;
+}
+.mobileNav {
+  margin-top: -15px;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #4062BB;
+  opacity: 1;
+  transition: .5s;
+  z-index: 9999998;
+}
+.mobileNav ul > li > a {
+  color: #fff
+}
+.hamburgerNav {
+  display: none;
+  float: left;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.cross {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-size: 40px;
+  z-index: 9999999;
+}
+.bgimg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
+  padding: 5px;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+}
+.eiu {
+  background-image: url(../img/EIU_logo2x.png);
+}
+.fortune {
+  background-image: url(../img/fortune-logo.jpg);
+}
+.newslogo {
+  background-image: url(../img/newsweek-logo.png);
+}
+.sciencelogo {
+  background-image: url(../img/Scientific_American_logo.svg_.png);
+}
+.travellogo {
+  background-image: url(../img/nga.png);
+}
+.otherlogo {
+  background-image: url(../img/columbia-bs.png);
+}
+.un-foundation {
+  background-image: url(../img/unf-logo.png);
+}
+.rock-logo {
+  background-image: url(../img/Rockefeller.png);
+}
+.sap {
+  background-image: url(../img/SAP-Logo.png);
+}
+.c-found {
+  background-image: url(../img/citi_foundation.png);
+}
+.iht {
+  background-image: url(../img/iht.jpg);
+  background-size: cover;
+}
+.WSJ {
+  background-image: url(../img/wsj.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.barron {
+  background-image: url(../img/Barrons_logo.png);
+}
+.marie-img {
+  background-image: url(../img/marie_claire_logo.jpg);
+}
+.conde {
+  background-image: url(../img/conde.jpg);
+}
+.ey {
+  background-image: url(../img/EY.gif);
+}
+.logo-img {
+  height: 50px;
+}
+.section-header {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  align-items: center;
+}
+.container .section-header h3 {
+  width: initial;
+  margin-right: 30px;
+}
+.containing-logo {
+  width: 200px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.containing-logo.WSJ {
+  width: 300px;
+  height: 25px;
+}
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media  (max-width:1024px) and (orientation:landscape) {
+
+  aside {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+  .photo{
+    width:35%;
+    height: auto;
+    margin-right: 30px;
+  }
+  aside .box {
+    width: 60%;
+    border: none;
+  }
+  .content {
+    width: 100%;
+  }
+  .large-wrapper {
+    flex-flow: column;
+  }
+  .container > section {
+    width: 31%;
+  }
+  footer > section {
+    text-align: left;
+  }
+  .large-wrapper.home-page{
+      flex-flow: column;
+  }
+}
+@media  (max-width:1024px) and (orientation:portrait) {
+
+  .corner {
+    left: 80%;
+  }
+  aside {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+  .photo{
+    width:55%;
+    height: auto;
+    margin-right: 30px;
+    background-position: center;
+  }
+  aside .box {
+    width: 60%;
+    border: none;
+  }
+  .content {
+    width: 100%;
+  }
+  .large-wrapper {
+    flex-flow: column;
+  }
+  .container > section {
+    width: 40%;
+  }
+  header ul {
+    display: none;
+  }
+  .hamburgerNav {
+    display: block;
+  }
+  .mobileNav{
+
+  }
+  footer > section {
+    text-align: left;
+  }
+  .large-wrapper.home-page{
+      flex-flow: column;
+  }
+
+}
+
+@media  (max-width:767px) and (orientation:landscape) {
+  header ul {
+    display: none;
+  }
+  .corner {
+    display: none;
+  }
+  aside {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+  .photo{
+    width:35%;
+    height: auto;
+    margin-right: 30px;
+    background-position: center;
+  }
+  aside .box {
+    width: 60%;
+  }
+  .content {
+    width: 100%;
+  }
+  .large-wrapper {
+    flex-flow: column;
+  }
+  .self-bio {
+    width: 100%;
+  }
+  .container > section {
+    width: 40%;
+  }
+  .hamburgerNav {
+    display: block;
+  }
+  .mobileNav{
+
+  }
+  footer > section {
+    text-align: left;
+  }
+  footer span {
+    margin: 10px;
+    padding: 10px;
+  }
+  .large-wrapper.home-page{
+    flex-flow: column;
+  }
+}
+@media  (max-width:767px) and (orientation:portrait) {
+  header {
+    margin-bottom: 20px;
+  }
+  .large-wrapper {
+    flex-flow: column;
+  }
+  aside {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+  .content {
+    width: 100%;
+  }
+  .content > section {
+    width: 100%;
+  }
+  .content h2 {
+    font-size: 36px;
+  }
+  .corner {
+    display: none;
+  }
+  .photo {
+    width: 100%;
+    height: 250px;
+  }
+  aside .box{
+    text-align: center;
+    width: 100%;
+  }
+  aside .box > p {
+    text-align: left;
+  }
+  ul {
+    display: none;
+  }
+  .self-bio {
+    width: 100%;
+  }
+  .container > section {
+    width: 100%;
+  }
+  .hamburgerNav {
+    display: block;
+  }
+  .mobileNav{
+
+  }
+  footer > section {
+    text-align: left;
+  }
+  footer span {
+    margin: 10px;
+    padding: 10px;
+  }
+  .large-wrapper.home-page{
+    flex-flow: column;
+  }
+}
