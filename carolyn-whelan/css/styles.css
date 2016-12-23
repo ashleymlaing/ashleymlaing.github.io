@@ -70,6 +70,10 @@ h6 {
   width: 100%;
   margin: 0 auto;
 }
+
+.wrapper span {
+  font-size: 1.6em;
+}
 .med-wrapper{
   max-width: 1020px;
   width: 80%;
@@ -132,6 +136,10 @@ header ul li a{
   font-size: 22px;
   font-weight: bold;
 }
+
+header ul li.secondary a {
+  color: #de3913;
+}
 footer a {
   color: #fff;
 }
@@ -168,6 +176,7 @@ aside h3{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-self: flex-start;
 }
 .content h2 {
   width: 100%;
@@ -300,6 +309,7 @@ footer section {
 }
 .currentpg {
   text-decoration: underline;
+  color: #2196f3;
 }
 .mobileNav {
   margin-top: -15px;

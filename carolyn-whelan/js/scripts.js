@@ -36,7 +36,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Small business efforts to hire young people in the US",
       date: "February 10,2015",
       description:"Across the United States, small businesses are developing innovative strategies to hire and upskill young workers in ways that are both good for business, and that reduce the unemployment hardships that disproportionately impact disadvantaged young people.",
-      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring/articles",
+      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring",
       className:"public-policy",
       page:"public-policy.html",
       imageClass:"rock-logo"
