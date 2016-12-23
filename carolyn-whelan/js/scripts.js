@@ -21,7 +21,7 @@ app.controller('featuredCtrl', function($scope) {
       category: "Public Policy",
       publication:"EIU",
       featured:false,
-      title:"UN FOUNDATION",
+      title:"Turning the clock on climate change",
       date: "November 15, 2016",
       description:"Q&A with James Gifford, senior fellow at the Initiative for Responsible Investment at Harvard and director of Impact at private equity firm Tau Investment Management",
       link:"https://www.eiuperspectives.economist.com/sustainability/global-development-goals-opportunities-and-obstacles/blog/turning-clock-climate-change",
