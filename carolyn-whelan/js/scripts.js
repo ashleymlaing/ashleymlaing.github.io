@@ -472,8 +472,8 @@ app.controller('featuredCtrl', function($scope) {
       logo:"fortune-logo.jpg",
       title:"Castro's Revenge: A Cuban oil rush is underway",
       date: "March 19, 2007",
-      description:"#",
-      link:"#",
+      description:"Seventy miles from Florida, a Cuban oil rush is underway - and U.S. companies can't join in, says Fortune's Carolyn Whelan.",
+      link:"http://archive.fortune.com/magazines/fortune/fortune_archive/2007/03/19/8402339/index.htm",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
