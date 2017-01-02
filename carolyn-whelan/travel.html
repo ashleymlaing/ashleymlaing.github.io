@@ -21,12 +21,12 @@
       </section>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="currentpg">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="public-policy.html">Public Policy</a></li>
         <li><a href="news.html">News</a></li>
+        <li><a href="travel.html" class="currentpg">Travel</a></li>
         <li><a href="business.html">Business</a></li>
         <li><a href="science.html">Science</a></li>
-        <li><a href="travel.html">Travel</a></li>
         <li><a href="other.html">Other</a></li>
       </ul>
     </section>
@@ -51,16 +51,14 @@
       </nav>
     </div>
   </header>
-  <div class="large-wrapper">
+  <div class="large-wrapper tile-page">
     <section class="container">
       <div class="section-header">
-        <h3>Conde Nast Traveler</h3>
-        <section class="containing-logo">
-          <section class="containing-logo conde">
-          </section>
+        <h3>Town &amp; Country Traveler</h3>
+        <section class="containing-logo town-logo">
         </section>
       </div>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'Conde'">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'Town'">
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
@@ -69,11 +67,11 @@
     </section>
     <section class="container">
       <div class="section-header">
-        <h3>Town &amp; Country Traveler</h3>
-        <section class="containing-logo sciencelogo">
+        <h3>Marie Claire</h3>
+        <section class="containing-logo marie-img">
         </section>
       </div>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'Town'">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'Marie'">
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
@@ -95,11 +93,13 @@
     </section>
     <section class="container">
       <div class="section-header">
-        <h3>Marie Claire</h3>
-        <section class="containing-logo marie-img">
+        <h3>Conde Nast Traveler</h3>
+        <section class="containing-logo">
+          <section class="containing-logo conde">
+          </section>
         </section>
       </div>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'Marie'">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'Conde'">
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
@@ -124,7 +124,7 @@
     </div>
       <section>
         <div class="wrapper">
-          <p>&copy; 2016 Carolyn Whelan +1 646-549-3108. carowhelan@gmail.com. Designed and built by <a href="http://www.resilientcoders.org">Resilient Coders</a>.</p>
+          <p>&copy; 2016 Carolyn Whelan +1 646-549-3108. carowhelan@gmail.com. Designed and built by a <span>Resilient Coder</span>.</p>
         </div>
       </section>
   </footer>

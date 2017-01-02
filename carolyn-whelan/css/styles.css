@@ -65,14 +65,14 @@ h6 {
 /*--------------------------------------------------------------
 # My CSS
 --------------------------------------------------------------*/
+.bio-link {
+  font-family: 'EB Garamond', serif;
+  font-size: 16px;
+}
 .wrapper {
   max-width: 980px;
   width: 100%;
   margin: 0 auto;
-}
-
-.wrapper span {
-  font-size: 1.6em;
 }
 .med-wrapper{
   max-width: 1020px;
@@ -136,10 +136,6 @@ header ul li a{
   font-size: 22px;
   font-weight: bold;
 }
-
-header ul li.secondary a {
-  color: #de3913;
-}
 footer a {
   color: #fff;
 }
@@ -158,7 +154,7 @@ aside {
   height: 200px;
   background-image: url("https://www.eiuperspectives.economist.com/sites/default/files/styles/editor_manualcrop/public/1Carolyn%20Wheelancrop.jpg?itok=C-8-YjAV&c=2b20a8115bbb2d38dbd89ce26a6e84aa");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 aside .box {
   padding: 20px;
@@ -176,7 +172,6 @@ aside h3{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-self: flex-start;
 }
 .content h2 {
   width: 100%;
@@ -290,6 +285,9 @@ footer section {
   margin-bottom: 30px;
   padding: 15px;
 }
+.container > section.third {
+  width: 33%;
+}
 .style {
   border: 2px solid black;
   height: 2px;
@@ -309,7 +307,6 @@ footer section {
 }
 .currentpg {
   text-decoration: underline;
-  color: #2196f3;
 }
 .mobileNav {
   margin-top: -15px;
@@ -374,6 +371,9 @@ footer section {
 .rock-logo {
   background-image: url(../img/Rockefeller.png);
 }
+.town-logo {
+  background-image: url(../img/T_C-Mag-Logo.png);
+}
 .sap {
   background-image: url(../img/SAP-Logo.png);
 }
@@ -406,7 +406,7 @@ footer section {
 }
 .section-header {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   width: 100%;
   align-items: center;
 }
@@ -424,6 +424,18 @@ footer section {
   width: 300px;
   height: 25px;
 }
+.travel-page {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.tile-page > .container {
+  width: 40%;
+}
+.tile-page > .container > section {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
@@ -564,6 +576,9 @@ footer section {
   .large-wrapper.home-page{
     flex-flow: column;
   }
+  .container > section.third {
+    width: 100%;
+  }
 }
 @media  (max-width:767px) and (orientation:portrait) {
   header {
@@ -624,5 +639,8 @@ footer section {
   }
   .large-wrapper.home-page{
     flex-flow: column;
+  }
+  .container > section.third {
+    width: 100%;
   }
 }

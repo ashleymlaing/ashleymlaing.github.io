@@ -21,7 +21,7 @@ app.controller('featuredCtrl', function($scope) {
       category: "Public Policy",
       publication:"EIU",
       featured:false,
-      title:"Turning the clock on climate change",
+      title:"UN FOUNDATION",
       date: "November 15, 2016",
       description:"Q&A with James Gifford, senior fellow at the Initiative for Responsible Investment at Harvard and director of Impact at private equity firm Tau Investment Management",
       link:"https://www.eiuperspectives.economist.com/sustainability/global-development-goals-opportunities-and-obstacles/blog/turning-clock-climate-change",
@@ -36,7 +36,7 @@ app.controller('featuredCtrl', function($scope) {
       title:"Small business efforts to hire young people in the US",
       date: "February 10,2015",
       description:"Across the United States, small businesses are developing innovative strategies to hire and upskill young workers in ways that are both good for business, and that reduce the unemployment hardships that disproportionately impact disadvantaged young people.",
-      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring",
+      link:"https://www.eiuperspectives.economist.com/talent-education/innovations-youth-hiring/articles",
       className:"public-policy",
       page:"public-policy.html",
       imageClass:"rock-logo"
@@ -60,7 +60,19 @@ app.controller('featuredCtrl', function($scope) {
       title:"A poll of young people across the world on their challenges, plans and aspirations for the future",
       date: "#",
       description:"Approximately 75 million youth globally are actively seeking meaningful employment. To effectively compete for economic opportunities and succeed in the 21st century economy, these young people will require a mix of education, employability, entrepreneurship, and leadership skills.",
-      link:"http://www.citigroup.com/citi/foundation/philanthropic-focus/youth-economic-opportunities.htm",
+      link:"http://www.citi.com/citi/foundation/programs/pathways-to-progress/accelerating-pathways/",
+      className:"public-policy",
+      page:"public-policy.html",
+      imageClass:"c-found"
+    },
+    {
+      category: "Public Policy",
+      publication:"EIU",
+      featured:false,
+      title:"Visionaries Unbound",
+      date: "#",
+      description:"After unheralded growth, the world is bumping up against its limits. Widespread affluence and urbanization have enriched many. But the rising tide also strains resources",
+      link:"http://www.visionariesunbound.com/",
       className:"public-policy",
       page:"public-policy.html",
       imageClass:"c-found"
@@ -472,8 +484,8 @@ app.controller('featuredCtrl', function($scope) {
       logo:"fortune-logo.jpg",
       title:"Castro's Revenge: A Cuban oil rush is underway",
       date: "March 19, 2007",
-      description:"Seventy miles from Florida, a Cuban oil rush is underway - and U.S. companies can't join in, says Fortune's Carolyn Whelan.",
-      link:"http://archive.fortune.com/magazines/fortune/fortune_archive/2007/03/19/8402339/index.htm",
+      description:"#",
+      link:"#",
       className:"business",
       page:"business.html",
       imageClass:"fortune"
@@ -727,7 +739,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Other",
       publication:"Ernst",
-      featured:true,
+      featured:false,
       logo:"columbia-bs.png",
       title:"America’s Private Enterprise Leadership Network for CFOs Perspectives",
       date: "#",
@@ -778,7 +790,7 @@ app.controller('featuredCtrl', function($scope) {
     {
       category:"Other",
       publication:"Columbia",
-      featured:false,
+      featured:true,
       logo:"columbia-bs.png",
       title:"Parker petroleum in Jumandia",
       date: "September 4, 2007",
@@ -841,7 +853,7 @@ app.controller('featuredCtrl', function($scope) {
       imageClass:"otherlogo"
     },
     {
-      category:"Digital Equipment Corporation",
+      category:"Other",
       publication:"Digital",
       featured:false,
       logo:"columbia-bs.png",
