@@ -382,18 +382,6 @@ app.controller('featuredCtrl', function($scope) {
       category:"Business",
       publication:"Barrons",
       featured:false,
-      title:"For 1999, Stick with the European Sunbelt",
-      date: "January 6, 1999",
-      description:"#",
-      link:"#",
-      className:"business",
-      page:"business.html",
-      imageClass:"barron"
-    },
-    {
-      category:"Business",
-      publication:"Barrons",
-      featured:false,
       title:"Have 'B to B' E-Commerce Stocks Hit a Wall?",
       date: "November 30, 1999",
       description:"A year ago, investors couldn't get enough of e-tailers and online auction houses, as they bid up shares of eBay and uBid big time. From January to April 1999, their stock prices more than tripled.",
@@ -854,6 +842,45 @@ app.controller('featuredCtrl', function($scope) {
     },
     {
       category:"Other",
+      publication:"UN",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"France Sauvage",
+      date: "#",
+      description:"St Tropez not your scene? Try one of WWF-France's 10 Gites Panda, or Panda Lodges, where binoculars, birdcall cassettes, and maps of the area's walks are standard guest amenities.",
+      link:"../pdf/More other - UN and NGOs - Article 2 - France Sauvage.pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
+    },
+    {
+      category:"Other",
+      publication:"UN",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"Irian Jaya",
+      date: "#",
+      description:"Irian Jaya is one of only three places on earth where one can stand on now-capped montain peaks on the Equator. The name, Irian Jaya, is a combination of Biak dialct and Indonesian words that roughly means 'glorious shimmering land'.",
+      link:"../pdf/More other - UN and NGOs - Article 3 - Irian Jaya.pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
+    },
+    // {
+    //   category:"Other",
+    //   publication:"UN",
+    //   featured:false,
+    //   logo:"columbia-bs.png",
+    //   title:"#",
+    //   date: "#",
+    //   description:"#",
+    //   link:"#",
+    //   className:"other",
+    //   page:"other.html",
+    //   imageClass:"otherlogo"
+    // },
+    {
+      category:"Other",
       publication:"Digital",
       featured:false,
       logo:"columbia-bs.png",
@@ -865,5 +892,44 @@ app.controller('featuredCtrl', function($scope) {
       page:"other.html",
       imageClass:"otherlogo"
     },
+    {
+      category:"Other",
+      publication:"Digital",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"Today's News Creseadus better Quality",
+      date: "March 20, 1998",
+      description:"#",
+      link:"../pdf/More other - Trade publications and corporations - Article 1 (Today's news).pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
+    },
+    {
+      category:"Other",
+      publication:"Digital",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"Flower",
+      date: "May 4, 1998",
+      description:"#",
+      link:"../pdf/More other - Trade publications and corporations - Article 2 - flower.pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
+    },
+    {
+      category:"Other",
+      publication:"Digital",
+      featured:false,
+      logo:"columbia-bs.png",
+      title:"Briefing Package",
+      date: "July 19, 1996",
+      description:"#",
+      link:"../pdf/More other - Trade publications and corporations - Article 4 - Briefing package.pdf",
+      className:"other",
+      page:"other.html",
+      imageClass:"otherlogo"
+    }
   ];
 });

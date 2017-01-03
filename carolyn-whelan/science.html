@@ -52,13 +52,13 @@
     </div>
   </header>
   <div class="large-wrapper">
-    <section class="container">
+    <section class="container" id="special-case">
       <div class="section-header">
         <h3>SciAm.com</h3>
         <section class="containing-logo sciencelogo">
         </section>
       </div>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'sciAm'">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'sciAm'" id="science-page">
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>

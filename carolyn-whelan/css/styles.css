@@ -408,7 +408,6 @@ footer section {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  align-items: center;
 }
 .container .section-header h3 {
   width: initial;
@@ -435,7 +434,18 @@ footer section {
 .tile-page > .container > section {
   width: 100%;
 }
-
+.tile-page .section-header {
+  flex-flow: column;
+}
+#science-page {
+  width: 33%;
+}
+#special-case .section-header {
+  padding-left: 75px;
+}
+.section-header h3 {
+  padding-left: 0;
+}
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
