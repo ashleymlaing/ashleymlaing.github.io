@@ -23,10 +23,10 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="public-policy.html">Public Policy</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="travel.html">Travel</a></li>
         <li><a href="business.html">Business</a></li>
+        <li><a href="news.html">News</a></li>
         <li><a href="science.html" class="currentpg">Science</a></li>
+        <li><a href="travel.html">Travel</a></li>
         <li><a href="other.html">Other</a></li>
       </ul>
     </section>
@@ -42,23 +42,23 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="public-policy.html">Public Policy</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="travel.html">Travel</a></li>
           <li><a href="business.html">Business</a></li>
+          <li><a href="news.html">News</a></li>
           <li><a href="science.html" class="currentpg">Science</a></li>
+          <li><a href="travel.html">Travel</a></li>
           <li><a href="other.html">Other</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <div class="large-wrapper">
-    <section class="container" id="special-case">
+    <section class="container">
       <div class="section-header">
         <h3>SciAm.com</h3>
         <section class="containing-logo sciencelogo">
         </section>
       </div>
-      <section ng-repeat="article in articles" ng-show="article.publication === 'sciAm'" id="science-page">
+      <section ng-repeat="article in articles" ng-show="article.publication === 'sciAm'" class="third">
           <h4>{{article.title}}</h4>
           <h5>{{article.date}}</h5>
           <p>{{article.description}}</p>
@@ -74,10 +74,10 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="public-policy.html">Public Policy</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="travel.html">Travel</a></li>
         <li><a href="business.html">Business</a></li>
+        <li><a href="news.html">News</a></li>
         <li><a href="science.html">Science</a></li>
+        <li><a href="travel.html">Travel</a></li>
         <li><a href="other.html">Other</a></li>
       </ul>
     </div>

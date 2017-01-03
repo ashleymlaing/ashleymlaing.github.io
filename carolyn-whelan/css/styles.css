@@ -196,7 +196,7 @@ h6 {
   background-color: #EB4837;
 }
 .news h6 {
-  background-color: #593FDA;
+  background-color: darkorange;
 }
 .science h6 {
   background-color: #506B05;
@@ -430,19 +430,16 @@ footer section {
 }
 .tile-page > .container {
   width: 40%;
+  padding: 0px 100px;
 }
 .tile-page > .container > section {
   width: 100%;
+  padding: 0;
 }
 .tile-page .section-header {
   flex-flow: column;
 }
-#science-page {
-  width: 33%;
-}
-#special-case .section-header {
-  padding-left: 75px;
-}
+
 .section-header h3 {
   padding-left: 0;
 }
@@ -482,6 +479,13 @@ footer section {
   }
   .large-wrapper.home-page{
       flex-flow: column;
+  }
+  .tile-page > .container {
+    width: 34%;
+    padding: 0px 0px;
+  }
+  .large-wrapper.tile-page {
+    flex-flow: row wrap;
   }
 }
 @media  (max-width:1024px) and (orientation:portrait) {
@@ -530,6 +534,10 @@ footer section {
   }
   .large-wrapper.home-page{
       flex-flow: column;
+  }
+  .tile-page > .container {
+    width: 40%;
+    padding: 0px 0px;
   }
 
 }
@@ -588,6 +596,10 @@ footer section {
   }
   .container > section.third {
     width: 100%;
+  }
+  .tile-page > .container {
+    width: 100%;
+    padding: 0px 0px;
   }
 }
 @media  (max-width:767px) and (orientation:portrait) {
@@ -652,5 +664,9 @@ footer section {
   }
   .container > section.third {
     width: 100%;
+  }
+  .tile-page > .container {
+    width: 100%;
+    padding: 0px 0px;
   }
 }
